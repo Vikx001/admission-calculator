@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: admission-calculator
-        image: Vikx001/admission-calculator:latest
+        image: vikx001/admission-calculator:latest
         ports:
         - containerPort: 5000
