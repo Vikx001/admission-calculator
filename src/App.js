@@ -20,7 +20,7 @@ function App() {
     <div className="app-container">
       <div className="card">
         <div className="card-body">
-          <h1 className="card-title">University Admission Chance Calculator</h1>
+          <h1 className="card-title">University Admission Chances Calculator</h1>
           <CalculatorForm setResult={setResult} />
           {result && <Result result={result} />}
         </div>
